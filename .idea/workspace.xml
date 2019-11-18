@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b73d6929-3426-410d-ad82-2ecdc34ed7c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/music_web.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/comment/templates/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/Volar.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/三国恋.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/会长大的幸福.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/体面.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/别再记起.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/好心分手.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/就是这样.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/放爱情一个假.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/满满.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/演员.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/爱 都是对的.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/爱的魔法.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/songFile/爱过了 又怎样.m4a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comment/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/templates/index.html" afterDir="false" />
@@ -31,13 +48,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="py" value="9" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="4" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,15 +73,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comment/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="287">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
                 <marker date="1574092263720" expanded="true" signature="227:232" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="57" column="28" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -90,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comment/templates/comment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+            <state relative-caret-position="398">
+              <caret line="113" column="22" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
               <folding>
                 <element signature="e#2803#2829#0#HTML" expanded="true" />
               </folding>
@@ -248,7 +274,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1963" y="-88" width="1278" height="1023" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15695792" />
@@ -257,12 +282,12 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.29752955" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.29752955" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39957035" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -282,32 +307,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/comment/views.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/comment/views.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/comment/views.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="4" />
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/comment/templates/comment.html</url>
+          <line>111</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comment/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -355,16 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment/templates/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
-          <folding>
-            <element signature="e#2803#2829#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -379,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/Django-env/lib/python3.7/site-packages/django/core/paginator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/Django-env/lib/python3.7/site-packages/django/utils/inspect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -393,13 +384,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/comment/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="287">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
             <marker date="1574092263720" expanded="true" signature="227:232" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Django-env/lib/python3.7/site-packages/django/core/paginator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Django-env/lib/python3.7/site-packages/django/template/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="828" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/templates/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="113" column="22" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+          <folding>
+            <element signature="e#2803#2829#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
