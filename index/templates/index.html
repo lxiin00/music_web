@@ -23,8 +23,8 @@
             <div id="suggest" class="search-suggest"></div>
             <div class="search-hot-words">
                 {% for songs in search_song %}
-{#                    <a target="play" href="{% url 'play' songs.song.song_id %}">{{ songs.song.song_id }}</a>#}
-                    <a target="play" href="/">{{ songs.song.song_name }}</a>
+                    <a target="play" href="{% url 'play' songs.song.song_id %}">{{ songs.song.song_name }}</a>
+{#                    <a target="play" href="/">{{ songs.song.song_name }}</a>#}
                 {% endfor %}
             </div>
         </div>
@@ -60,14 +60,14 @@
                 <div id="bannerLeftBtn" class="banner_btn"></div>
                 <ul class="focus-list f_w">
                     <li class="f_s">
-{#                        <a target="play" href="{% url 'play' 12 %}" class="layz_load">#}
-                        <a target="play" href="/" class="layz_load">
+                        <a target="play" href="{% url 'play' 12 %}" class="layz_load">
+{#                        <a target="play" href="/" class="layz_load">#}
                             <img data-src="{% static 'image/datu-1.jpg' %}" width="750" height="275">
                         </a>
                     </li>
                     <li class="f_s">
-{#                        <a target="play" href="{% url 'play' 13 %}" class="layz_load">#}
-                        <a target="play" href="/" class="layz_load">
+                        <a target="play" href="{% url 'play' 13 %}" class="layz_load">
+{#                        <a target="play" href="/" class="layz_load">#}
                             <img data-src="{% static 'image/datu-2.jpg' %}" width="750" height="275">
                         </a>
                     </li>
@@ -80,8 +80,8 @@
             <ul>
                 {% for songs in play_hot_song %}
                     <li><span>{{ forloop.counter }}</span>
-{#                        <a target="play" href="{% url 'play' songs.song.song_id %}">{{ songs.song.song_name }}</a>#}
-                    <a target="play" href="/">{{ songs.song.song_name }}</a>
+                        <a target="play" href="{% url 'play' songs.song.song_id %}">{{ songs.song.song_name }}</a>
+{#                    <a target="play" href="/">{{ songs.song.song_name }}</a>#}
                     </li>
                 {% endfor %}
             </ul>
@@ -103,18 +103,18 @@
                         {% else %}
                             <li>
                         {% endif %}
-{#                        <a class="pic layz_load pic_po" target="play" href="{% url 'play'  list.song_id %}">#}
-                        <a class="pic layz_load pic_po" target="play" href="/">
+                        <a class="pic layz_load pic_po" target="play" href="{% url 'play'  list.song_id %}">
+{#                        <a class="pic layz_load pic_po" target="play" href="/">#}
                             <img data-src="{% static "songImg/" %}{{ list.song_img }}">
                         </a>
                         <div class="name">
-{#                                <a target="play" href="{% url 'play' list.song_id %}">{{ list.song_name }}</a> #}
-                            <h3><a target="play" href="/">{{ list.song_name }}</a></h3>
+                            <h3><a target="play" href="{% url 'play' list.song_id %}">{{ list.song_name }}</a></h3>
+{#                            <h3><a target="play" href="/">{{ list.song_name }}</a></h3>#}
                             <div class="singer"><span>{{ list.song_singer }}</span></div>
                             <div class="times">发行时间：<span>{{ list.song_release }}</span></div>
                         </div>
-{#                        <a target="play" href="{% url 'paly' list.song_id %}" class="today-buy-button">去听听</a>#}
-                        <a target="play" href="/" class="today-buy-button">去听听</a>
+                        <a target="play" href="{% url 'play' list.song_id %}" class="today-buy-button">去听听</a>
+{#                        <a target="play" href="/" class="today-buy-button">去听听</a>#}
                     {% endfor %}
                 </ul>
             </div>
@@ -135,12 +135,12 @@
                     {% endif %}
                         {% for songs in list %}
                             <li>
-{#                                <a target="play" href="{% url 'play' songs.song.song_id %}" class="pic layz_load pic_po">#}
-                                <a target="play" href="/" class="pic layz_load pic_po">
+                                <a target="play" href="{% url 'play' songs.song.song_id %}" class="pic layz_load pic_po">
+{#                                <a target="play" href="/" class="pic layz_load pic_po">#}
                                     <img data-src="{% static 'songImg/' %}{{ songs.song.song_img }}">
                                 </a>
-{#                                    <a target="play" href="{% url 'play' songs.song.song_id %}">{{ songs.song.song_name }}</a> #}
-                                    <a href="/"><span>{{ songs.song.song_name }}</span></a>
+                                    <a target="play" href="{% url 'play' songs.song.song_id %}">{{ songs.song.song_name }}</a>
+{#                                    <a href="/"><span>{{ songs.song.song_name }}</span></a>#}
                                 <div class="singer"><span>{{ songs.song.song_singer }}</span></div>
                                 {% if all_ranking|first == list %}
                                     <div class="times">搜索次数：<span>{{ songs.dynamic_search }}</span></div>
