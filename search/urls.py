@@ -1,7 +1,7 @@
 from django.urls import path
-from . import views
+from .views import searchView
 
 
 urlpatterns = [
-    path('search/', views.testView, name='search'),
+    path('<int:page>.html', searchView, name='search'),
 ]

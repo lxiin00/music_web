@@ -12,8 +12,8 @@
             <img alt="我的音乐" src="{% static 'image/logo.png' %}">
         </a>
         <div class="search-box">
-{#            <form id="searchForm" action="{% url 'search' 1 %}" method="post" target="_blank">#}
-            <form id="searchForm" method="post" target="_blank">
+            <form id="searchForm" action="{% url 'search' 1 %}" method="post" target="_blank">
+{#            <form id="searchForm" method="post" target="_blank">#}
                 {% csrf_token %}
                 <div class="search-keyword">
                     <input name="kword" type="text" class="keyword" maxlength="120" placeholder="音乐节">
