@@ -11,7 +11,7 @@ def searchView(request, page):
         if kword:
             song_info = Song.objects.values('song_id', 'song_name', 'song_singer', 'song_time').filter(Q(song_name__icontains=kword) | Q(song_singer__icontains=kword)).order_by('-song_release').all()
         else:
-            song_info = Song.objects.values('song_id', 'song_name', 'song_singer', 'song_time').order_by('-song_release').all()[:8]
+            song_info = Song.objects.values('song_id', 'song_name', 'song_singer', 'song_time').order_by('-song_release').all()[:50]
 
         paginator = Paginator(song_info, 5)
         try:

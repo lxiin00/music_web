@@ -59,6 +59,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'music_web.urls'
 
+AUTH_USER_MODEL = 'user.MyUser'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -100,6 +102,9 @@ DATABASES = {
         'PASSWORD': '123456',
         'HOST': '127.0.0.1',
         'PORT': 3306,
+        # 'OPTIONS': {
+        #     "init_command": "SET foreign_key_checks = 0;",
+        # }
     }
 }
 
