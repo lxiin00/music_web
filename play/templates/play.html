@@ -21,7 +21,7 @@
             </form>
             <div id="suggest" class="search-suggest">
                 {% for song in search_song %}
-                    <a target="playu" href="{% url 'play' song.song.song_id %}">{{ song.song.song_name }}</a>
+                    <a target="play" href="{% url 'play' song.song.song_id %}">{{ song.song.song_name }}</a>
                 {% endfor %}
             </div>
         </div>
