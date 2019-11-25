@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'noqlnk@ia3gyis#n#l@06!pc@!(c=p+gd-$*tv1%40@0plbuap'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -146,6 +146,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 项目上线之后存放静态资源的目录，通过 python manage collectstatic 复制
+STATIC_ROOT = '/Users/xxx/PycharmProjects/music_web_study/static'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')

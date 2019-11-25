@@ -1,5 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url
+from django.views import static
+from django.conf import settings
+
 
 urlpatterns = [
     path('', include('index.urls')),
@@ -9,6 +13,8 @@ urlpatterns = [
     path('search/', include('search.urls')),
     path('user/', include('user.urls')),
     path('admin/', admin.site.urls),
+    # 设置项目上线的静态资源路径
+    url('^static/(?P<path>.*)$', static.serve, {'document_root': settings.STATIC_ROOT}, name='static'),
 ]
 
 
