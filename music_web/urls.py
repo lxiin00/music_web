@@ -10,3 +10,9 @@ urlpatterns = [
     path('user/', include('user.urls')),
     path('admin/', admin.site.urls),
 ]
+
+
+from index.views import page_not_found
+
+handler404 = page_not_found
+handler500 = page_not_found
