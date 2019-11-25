@@ -11,6 +11,7 @@ from index.models import *
 
 def loginView(request):
     user = MyUserCreationForm()
+    button = '验证码'
     if request.method == 'POST':
         if request.POST.get('loginUser', ''):
             loginUser = request.POST.get('loginUser', '')
